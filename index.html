@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="img/TestLogo.png" alt="">
+        </div>
+        <div class="header-middle">
+            <ul>
+                <li><ion-icon name="home-outline"></ion-icon> Overview</li>
+                <li class="active-1"><ion-icon name="people-outline"></ion-icon> Patient</li>
+               <li> <ion-icon name="calendar-clear-outline"></ion-icon>Schedule</li>
+                <li><ion-icon name="chatbox-outline"></ion-icon>Message</li>
+                <li><ion-icon name="card-outline"></ion-icon>Transaction</li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <div class="header-right-left"><img src="img/layer_2.png" alt=""></div>
+            <div class="header-right-middle">
+                <p>Dr. Jose Simmons</p>
+                <p>General Practioner</p>
+            </div>
+            <div class="header-right-right">
+                <ion-icon name="settings-outline"></ion-icon>
+                <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="left">
+            <div class="left-header">
+                <h2>Patients</h2>
+                <div class="search-icon">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="list-card">
+                <!-- <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div>
+                <div class="card-slice">
+                    <div class="left-part">
+                        <div class="patient-img">
+                            <img src="img/Layer.png" alt="">
+                        </div>
+                        <div class="patient-info">
+                            <p class="name">Emily Williams</p>
+                            <p>Female, 18</p>
+                        </div>
+                    </div>
+                    <div class="right-part">
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+                    
+
+                </div> -->
+            </div>
+        </div>
+        <div class="middle">
+            
+                <h2>Diagnosis History</h2>
+            
+            <div class="middle-top">
+                <div class="chart-view">
+                    <canvas id="myChart"></canvas>
+                  </div>
+            </div>
+            <div class="middle-middle">
+                <div class="patient-health service-1">
+                    <div>
+                        <img src="img/respiratory.png" alt="">
+                    </div>
+                    <p>Resipatory Rate</p>
+                    <h3>20 bpm</h3>
+                    <small>Normal</small>
+                </div>
+                <div class="patient-health service-2">
+                    <div>
+                        <img src="img/temperature.png" alt="">
+                    </div>
+                    <p>Temperature</p>
+                    <h3>98.6 F</h3>
+                    <small>Normal</small>
+                </div>
+                <div class="patient-health service-3">
+                    <div>
+                        <img src="img/HeartBPM.png" alt="">
+                    </div>
+                    <p>Heart Rate</p>
+                    <h3>78 bpm</h3>
+                    <small>Lower then Average</small>
+                </div>
+            </div>
+            <div class="middle-buttom">
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <!-- <div class="selected-patient">
+                    <div class="selected-pat-img">
+                        <img src="img/Layer.png" alt="">
+                    </div>
+                   <h2>Jessica Taylor</h2>
+                </div>
+                <div class="patient-full-info">
+                        <div class="personal-info">
+                            <ion-icon name="calendar-clear-outline"></ion-icon>
+                            <div>
+                                <p>Date of Birth</p>
+                                <p>August 23, 1996</p>
+                            </div>
+                        </div>
+                        <div class="personal-info">
+                            <ion-icon name="female-outline"></ion-icon>
+                            <div>
+                                <p>Gender</p>
+                                <p>Female</p>
+                            </div>
+                        </div>
+                        <div class="personal-info">
+                            <ion-icon name="call"></ion-icon>
+                            <div>
+                                <p>Contact Info.</p>
+                                <p>(415) 555-1234</p>
+                            </div>
+                        </div>
+                        <div class="personal-info">
+                            <ion-icon name="call"></ion-icon>
+                            <div>
+                                <p>Emergency Contacts</p>
+                                <p>(415) 555-1234</p>
+                            </div>
+                        </div>
+                        <div class="personal-info">
+                            <ion-icon name="shield-half-outline"></ion-icon>
+                            <div>
+                                <p>Insurance Provider</p>
+                                <p>Sunrise Health Assurance</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="btn">
+                        Show All infomation
+                </div> -->
+            </div>
+            <div class="right-button">
+                <h2>Lab Results</h2>
+                <div> <p>Blood Tests</p><ion-icon name="download-outline"></ion-icon></div>
+                <div> <p>CTScans</p><ion-icon name="download-outline"></ion-icon></div>
+                <div> <p>Radiology Reports</p><ion-icon name="download-outline"></ion-icon></div>
+                <div> <p>X-Rays</p><ion-icon name="download-outline"></ion-icon></div>
+                <div> <p>Urine Test</p><ion-icon name="download-outline"></ion-icon></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

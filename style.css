@@ -1,0 +1,299 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: "Manrope", sans-serif;
+}
+
+body{
+    /* width: 100vw; */
+    /* height: 100vh; */
+    background-color: #e9e9e9;
+}
+
+header{
+
+    /* height: 30px; */
+    /* border: 2px solid red; */
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 60px;
+    background-color: white;
+    
+    
+}
+
+header .header-left{
+  width: 10%;
+}
+
+header .header-left img{
+  width: 100%;
+  height: auto;
+}
+header .header-middle ul{
+  display:flex;
+  /* border:1px solid red; */
+  align-items: center;
+  column-gap: 14px
+}
+header .header-middle ul li{
+  list-style-type: none;
+  /* margin-left: 5px; */
+  font-size: 12px;
+  padding: 7px 14px;
+  /* border:1px solid red; */
+  border-radius: 20px;
+  display: flex;
+  gap: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.active-1{
+  background-color: aquamarine;
+}
+
+
+
+
+header .header-right{
+  display:flex;
+  gap: 5px;
+  align-items: center;
+  /* border: 2px solid blue; */
+  
+}
+
+header .header-right .header-right-left{
+  width: 14%;
+}
+header .header-right .header-right-left img{
+  width:100%;
+  height:auto;
+}
+
+header .header-right .header-right-middle{
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+header .header-right .header-right-right{
+  padding-left: 30px;
+}
+
+
+
+.hero-section{
+    margin:15px;
+    display:flex;
+    /* border:2px solid blue; */
+    justify-content: space-between;
+}
+.hero-section .left{
+    /* border: 2px solid black; */
+    width: calc(25%);
+    border-radius: 10px;
+    padding: 15px 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.list-card{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.list-card .card-slice{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+.list-card .card-slice .left-part{
+    display: flex;
+    align-items: center;
+    /* width: auto; */
+}
+.list-card .card-slice .left-part .patient-img{
+    width:17% ;
+}
+.list-card .card-slice .left-part .patient-img img{
+    width:100%;
+    height: auto;
+}
+.list-card .card-slice .left-part .patient-info{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.list-card .card-slice .left-part .patient-info .name{
+    font-weight: 900;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.left-header h2{
+    font-size: 20px;
+}
+
+ion-icon {
+    font-size: 18px;
+    padding: 0px;
+    font-weight: bolder;
+    /* border:1px solid blue; */
+  }
+
+  /* -------------------------------------------> */
+
+  /* middle part of hero section */
+
+  .hero-section .middle{
+    /* border: 2px solid black; */
+    width: calc(45%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+  .hero-section .middle h2{
+        font-size: 20px;
+        margin-bottom: 10px;
+  }
+
+  .hero-section .middle .middle-top .chart-view{
+    margin-bottom: 20px;
+  }
+
+  .hero-section .middle .middle-middle{
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+  }
+
+  .hero-section .middle .middle-middle .patient-health{
+    padding: 15px;
+    /* border:1px solid red; */
+    width: 31%;
+    border-radius: 20px;
+   
+  }
+
+  .hero-section .middle .middle-middle .service-1{
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+  }
+  .hero-section .middle .middle-middle .service-2{
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+  }
+  .hero-section .middle .middle-middle .service-3{
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+  }
+
+  .hero-section .middle .middle-middle .patient-health p{
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .hero-section .middle .middle-middle .patient-health small{
+    font-size: 10px;
+    font-weight: bolder;
+    display: block;
+    margin-top: 15px;
+  }
+
+
+  /* right part of hero-secion */
+
+  .hero-section .right{
+    /* border: 2px solid black; */
+    width: calc(25%);
+    border-radius: 10px;
+    padding: 15px 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+
+  .hero-section .right .right-top .selected-patient{
+    display: flex;
+    flex-direction:column;
+    row-gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+
+  .hero-section .right .right-top .selected-patient .selected-pat-img{
+    width: 40%;
+    height: auto;
+    /* border: 2px solid blueviolet; */
+  }
+  .hero-section .right .right-top .selected-patient .selected-pat-img img{
+    width: 100%;
+    height :auto;
+  }
+  .hero-section .right .right-top .selected-patient h2{
+    font-size: 20px;
+  }
+
+  .hero-section .right .right-top .patient-full-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-left: 10px;
+  }
+
+  .hero-section .right .right-top .patient-full-info .personal-info{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    font-size: 14px;
+  }
+
+  .btn{
+    padding: 10px 15px;
+    background-color: aquamarine;
+    font-size: 12px;
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 30px auto;
+  }
+
+  .hero-section  .right .right-button h2{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+  }
+
+  .hero-section  .right .right-button div{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+    
+  }
+
+  .hero-section  .right .right-button div p{
+    font-size: 14px ;
+  }
+
+
+
+
